@@ -1,0 +1,19 @@
+{
+  "name": "hi-clouds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:edge": "node_modules\\.bin\\cypress run --browser edge",
+    "cypress:chrome": "node_modules\\.bin\\cypress run --browser chrome",
+    "cypress:electron": "node_modules\\.bin\\cypress run --browser electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-wait-until": "^1.7.2"
+  }
+}
